@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.local
+uploads/
+dist/
+logs/
+coverage/
+.DS_Store
+*.log
+.vite/
+client/dist/
+server/uploads/

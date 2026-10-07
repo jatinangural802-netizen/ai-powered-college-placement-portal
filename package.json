@@ -1,0 +1,17 @@
+{
+  "name": "careerbridge",
+  "version": "1.0.0",
+  "description": "AI-Powered College Placement & Career Portal",
+  "private": true,
+  "scripts": {
+    "install:all": "node scripts/install-all.mjs",
+    "dev": "node scripts/start.mjs",
+    "dev:server": "node scripts/run.mjs dev-server",
+    "dev:client": "node scripts/run.mjs dev-client",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
+    "seed": "node scripts/run.mjs seed",
+    "test": "node scripts/run.mjs test",
+    "build": "node scripts/run.mjs build"
+  }
+}
